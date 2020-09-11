@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="adhocofupdated">
+<test name="regression">
+<listeners>
+
+<listener class-name="com.facebook.Auto.Train.App">listener</listener>
+
+
+<listeners>
+
+
+<parameter name="url" value="https://www.facebook.com"></parameter>
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+<class name="run.HOME_SITE1"></class>
+<!--  <class name="facebookprac.NewTest1"></class>-->
+
+</classes>
+</test>
+<test name="IT">KL
+<parameter name="url" value="https://www.facebook.com"></parameter>
+<parameter name="browser" value="firefox"></parameter>
+<classes>
+<class name="run.HOME_SITE1"></class>
+<!--  <class name="facebookprac.NewTest1"></class>-->
+
+</classes>
+</test>
+</suite>
